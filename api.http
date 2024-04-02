@@ -1,0 +1,26 @@
+POST http://localhost:3333/events
+Content-Type: application/json
+
+{
+    "title": "evento com 1 participante",
+    "details": "Um evento de programação",
+    "maximumAttendees": 1
+}
+
+###
+
+POST http://localhost:3333/events/e4ee98f9-3cee-4337-8270-3faa2760f5ca/attendees
+Content-Type: application/json
+
+{
+    "name": "Danillo",
+    "email": "danillof.ferreira@gmail.com"
+}
+
+###
+
+GET http://localhost:3333/events/e4ee98f9-3cee-4337-8270-3faa2760f5ca
+
+###
+
+GET http://localhost:3333/attendees/1/badge
