@@ -1,4 +1,7 @@
 import {
+  registerForEvent
+} from "./chunk-DCKDTYDB.mjs";
+import {
   errorHandler
 } from "./chunk-PP7UF5HR.mjs";
 import {
@@ -13,13 +16,10 @@ import {
 } from "./chunk-22QE3EOM.mjs";
 import {
   getEventAttendees
-} from "./chunk-NNQA6UXE.mjs";
+} from "./chunk-FWGBRFBZ.mjs";
 import {
   getEvent
 } from "./chunk-5EPCSY3M.mjs";
-import {
-  registerForEvent
-} from "./chunk-DCKDTYDB.mjs";
 import "./chunk-JRO4E4TH.mjs";
 import "./chunk-JV6GRE7Y.mjs";
 
